@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/Navbar";
 import TextForm from "./components/TextForm";
 import { ThemeProvider, useDarkMode } from "./context/ThemeContext";
